@@ -1,0 +1,21 @@
+.projects{
+    font-family: heebo;
+    color: rgba(33, 36, 61, 1);
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.projects h1{
+    font-size: 22px;
+    font-weight: 400;
+}
+projects section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.pcard-divider {
+    width: calc(100% - 100px); 
+    border-top: 1px solid #ccc; 
+    margin-top: 20px; 
+}

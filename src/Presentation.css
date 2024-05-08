@@ -1,0 +1,39 @@
+.present{
+    background-color: white;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.present h1{
+    font-family: heebo;
+    color: rgba(33, 36, 61, 1);
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.present p{
+    font-family: heebo;
+    color: rgba(33, 36, 61, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.present button{
+    background-color: rgba(255, 100, 100, 1);
+    width: 208px;
+    height: 47px;
+    font-family: heebo;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 2px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.present button:hover{
+    transform: translateY(-7px);
+    background-color: rgba(33, 36, 61, 1);
+    transition: 0.6s;
+}

@@ -1,0 +1,24 @@
+.nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.nav ul{
+    display: flex;
+}
+#links a{
+    cursor: pointer;
+    margin-right: 15px;
+    font-family: heebo;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.nav ul a{
+    color: black !important;
+}
+.nav ul li{
+    list-style: none;
+}

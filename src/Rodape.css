@@ -1,0 +1,25 @@
+.rodape{
+    margin-top: 90px;
+}
+
+.rodape ul{
+    display: flex;
+    justify-content: center;
+}
+.rodape ul li {
+    list-style: none;
+}
+
+.rodape ul li a{
+    color: rgba(33, 36, 61, 1) !important;
+    margin: 0 10px 0 10px;
+}
+
+.rodape p{
+    text-align: center;
+    font-family: heebo;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
