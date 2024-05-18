@@ -15,10 +15,21 @@
     font-size: 20px;
     text-decoration: none;
     color: black;
+    transition: 0.4s;
+}
+#links a:hover{
+    color: rgba(255, 100, 100, 1);
+    transition: 0.4s;
 }
 .nav ul a{
-    color: black !important;
+    color: black ;
+    transition: 0.4s;
 }
 .nav ul li{
     list-style: none;
+}
+
+.nav ul a:hover{
+    color: rgba(255, 100, 100, 1);
+    transition: 0.4s;
 }
