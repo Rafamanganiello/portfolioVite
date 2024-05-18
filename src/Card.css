@@ -4,7 +4,7 @@
     margin: 15px;
     width: 418px;
     height: 295px;
-    transition: 0.6s;
+    transition: all 0.3s ease-in-out;
 }
 .card:hover{
     transform: translateY(-18px);
@@ -48,4 +48,21 @@
 .date p{
     margin-right: 50px;
     
+}
+.card .description {
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    max-height: 0; 
+    opacity: 0;
+    padding: 0;
+}
+
+.card .description.expanded {
+    max-height: 100px; 
+    opacity: 1;
+}
+
+.card .description p {
+    margin: 0;
+    line-height: 1.6;
 }
